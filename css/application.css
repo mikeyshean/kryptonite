@@ -1,0 +1,12 @@
+
+
+body{
+  text-align: center;
+  background: #ccc;
+}
+#canvas {
+  /*background-image: url("../images/bg.jpg");*/
+  background: #23262b;
+  display: inline-block;
+  margin-top: 50px;
+}
