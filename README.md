@@ -38,7 +38,6 @@
 
 ##### `trigCollision`:
 ![trigCollision]
-
 [sideCollision]: ./docs/side_collision.png
 [gapCollision]: ./docs/gap_collision.png
 [trigCollision]: ./docs/trig_collision.png
