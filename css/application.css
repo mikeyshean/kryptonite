@@ -77,8 +77,13 @@ li {
 .leaderboard-list > li {
   margin-bottom: 5px;
 }
+
 .leaderboard-list span:first-child {
   float: left;
+}
+
+.leaderboard-list span.padding {
+  padding-left: 12px;
 }
 
 .leaderboard-list span:last-child {
