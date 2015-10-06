@@ -14,8 +14,8 @@
   </head>
   <body>
     <canvas id="canvas" width="800" height="400"></canvas>
-    <div class="leadboard">
-      <button class="view">View Leaderboard</button><button class="submit">Submit Score</button>
+    <div id="leadboard">
+      <button class="view-leaders">View Leaderboard</button><button class="submit">Submit Score</button>
       <ul class="leaderboard-list">
       </ul>
     </div>
@@ -23,7 +23,7 @@
       var canvas = document.getElementById('canvas');
       var ctx = canvas.getContext('2d')
       var audio = document.getElementById('audio');
-      var $leaderboard = $(".submit")
+      var $leaderboard = $("#leaderboard")
       var gameView = new Flappy.GameView({ ctx: ctx, audio: audio, $leaderboard: $leaderboard })
       gameView.menu();
     </script>
