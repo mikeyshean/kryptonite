@@ -68,7 +68,7 @@ span {
 }
 
 .leaderboard-list > li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   position: relative;
   left: -5px;
   font-family: "Press Start 2P";
