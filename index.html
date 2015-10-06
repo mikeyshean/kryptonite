@@ -15,14 +15,13 @@
   <body>
     <canvas id="canvas" width="800" height="400"></canvas>
 
-    <!-- <audio id="audio" src="./assets/soundfx/superman_theme.mp3" loop="true">
-    </audio> -->
-
+    <button class="submit">Submit</button>
     <script>
       var canvas = document.getElementById('canvas');
       var ctx = canvas.getContext('2d')
       var audio = document.getElementById('audio');
-      var gameView = new Flappy.GameView({ ctx: ctx, audio: audio })
+      var $leaderboard = $(".submit")
+      var gameView = new Flappy.GameView({ ctx: ctx, audio: audio, $leaderboard: $leaderboard })
       gameView.menu();
     </script>
     <script>
@@ -35,5 +34,6 @@
       ga('send', 'pageview');
 
     </script>
+
   </body>
 </html>
