@@ -43,7 +43,7 @@ span {
   padding: 5px 20px;
   left: 58.8%;
   transform: translateX(-50%);
-  top: 65%;
+  top: 64.5%;
   line-height: 1.4;
   cursor: pointer;
   display: none;
@@ -51,9 +51,7 @@ span {
 
 .restart {
   left: 41.5%;
-  top: 66.5%;
-  left: 41.5%;
-  top: 64.7%;
+  top: 64.5%;
   padding: 15px 20px;
 }
 
