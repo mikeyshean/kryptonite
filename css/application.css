@@ -8,6 +8,10 @@ body{
 
 ul {
   list-style: none;
+}
+
+li {
+  font-family: "Press Start 2P"
   font: #fff;
 }
 
