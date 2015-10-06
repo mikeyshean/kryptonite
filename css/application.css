@@ -22,12 +22,7 @@ ul {
 span {
   font-family: "Press Start 2P";
   color: #fff;
-  font-size: 12px;
-}
-
-li {
-  font-family: "Press Start 2P";
-  color: #fff;
+  font-size: 14px;
 }
 
 #canvas {
@@ -64,7 +59,7 @@ li {
 
 .leaderboard-title {
   margin-top: 30px;
-  font-size: 18px;
+  font-size: 22px;
   display: block;
 }
 
@@ -76,6 +71,10 @@ li {
 
 .leaderboard-list > li {
   margin-bottom: 5px;
+  position: relative;
+  left: -5px;
+  font-family: "Press Start 2P";
+  color: #fff;
 }
 
 .leaderboard-list span:first-child {
