@@ -6,6 +6,10 @@ body{
   background-size: cover;
 }
 
+ul {
+  list-style: none;
+}
+
 #canvas {
 
   background: #23262b;
