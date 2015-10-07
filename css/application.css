@@ -77,12 +77,13 @@ span {
 .leaderboard-list > li:first-child span:first-child::after {
   content: "";
   background-image: url("../assets/images/superman_shield.png");
-  background-size: 30px 23px;
-  width: 30px;
-  height: 23px;
+  background-size: 28px 21px;
+  width: 28px;
+  height: 21px;
   display: inline-block;
   position: absolute;
-  top: -8px;
+  top: -5px;
+  margin-left: 3px;
 }
 
 .leaderboard-list span:first-child {
