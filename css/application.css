@@ -75,7 +75,14 @@ span {
   color: #fff;
 }
 .leaderboard-list > li:first-child span:first-child::after {
-  content: url("../assets/images/superman_shield.png")
+  content: "";
+  background-image: url("../assets/images/superman_shield.png");
+  background-size: 30px 23px;
+  width: 30px;
+  height: 23px;
+  display: inline-block;
+  position: absolute;
+  top: -8px;
 }
 
 .leaderboard-list span:first-child {
