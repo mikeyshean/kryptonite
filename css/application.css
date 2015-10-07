@@ -74,6 +74,9 @@ span {
   font-family: "Press Start 2P";
   color: #fff;
 }
+.leaderboard-list > li:first-child span:first-child::after {
+  content: url("./assetes/images/superman_shield.png")
+}
 
 .leaderboard-list span:first-child {
   float: left;
