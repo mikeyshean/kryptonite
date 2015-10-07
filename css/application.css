@@ -75,7 +75,7 @@ span {
   color: #fff;
 }
 .leaderboard-list > li:first-child span:first-child::after {
-  content: url("./assetes/images/superman_shield.png")
+  content: url("../assets/images/superman_shield.png")
 }
 
 .leaderboard-list span:first-child {
