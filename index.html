@@ -28,11 +28,10 @@
     <script>
       var canvas = document.getElementById('canvas');
       var ctx = canvas.getContext('2d')
-      var audio = document.getElementById('audio');
-
       var $el = $(".game-wrapper")
       var $leaderList = $(".leaderboard-list")
-      var gameView = new Flappy.GameView({ ctx: ctx, audio: audio, $el: $el, $leaderList: $leaderList })
+      var gameView = new Flappy.GameView({ ctx: ctx, $el: $el, $leaderList: $leaderList })
+
       gameView.menu();
     </script>
     <script>
